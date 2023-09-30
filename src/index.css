@@ -63,6 +63,7 @@
     #f5af19
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -114,6 +115,13 @@
     #fc6767
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
+ /* The background-clip property specifies how far the background color or image should extend within an element. It has four possible values: border-box, padding-box, content-box, and text.
+
+border-box: The background extends to the outside edge of the border (but underneath the border in the case of transparent borders).
+padding-box: The background extends to the outside edge of the padding.
+content-box: The background extends only to the edge of the content box.
+text: The background is clipped to the foreground text.
+This property is supported in all modern browsers and IE9+.*/
   -webkit-text-fill-color: transparent;
 }
 
