@@ -7,10 +7,14 @@
 * {
   margin: 0;
   padding: 0;
+  padding-top: 0;
+  font-weight: 100;
+  border-style: none;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif, Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  
    
 }
 
@@ -86,7 +90,7 @@
 
 .blue-text-gradient {
   /* background: -webkit-linear-gradient(#eee, #333); */
-  background: #56ccf2; /* fallback for old browsers */
+  background: #11998e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
     #2f80ed,
@@ -115,6 +119,7 @@
     #fc6767
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
+  background-clip: text;
  /* The background-clip property specifies how far the background color or image should extend within an element. It has four possible values: border-box, padding-box, content-box, and text.
 
 border-box: The background extends to the outside edge of the border (but underneath the border in the case of transparent borders).
